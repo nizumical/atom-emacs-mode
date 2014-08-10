@@ -64,3 +64,10 @@
   'ctrl-x 0': 'pane:close'
   'ctrl-x 1': 'pane:close'
   'ctrl-x o': 'window:focus-next-pane'
+  
+  # Others
+  'ctrl-x u': 'core:undo'
+  'ctrl-x r': 'core:redo' # might not be standard, just needed symmetric one to undo.
+  'escape >': 'core:move-to-bottom'
+  'escape <': 'core:move-to-top'
+
