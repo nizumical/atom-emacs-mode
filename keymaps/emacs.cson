@@ -48,7 +48,7 @@
   'ctrl-/': 'core:undo'
   'ctrl-x ctrl-s': 'core:save'
 
-  #selection
+  # selection
   'ctrl-x h': 'core:select-all'
 
   # buffer
@@ -57,3 +57,10 @@
   'ctrl-x k': 'core:close'
   'ctrl-x b': 'emacs:switch-buffer'
   'ctrl-x ctrl-f': 'emacs:find-file'
+  
+  # pane
+  'ctrl-x 2': 'pane:split-down'
+  'ctrl-x 3': 'pane:split-right'
+  'ctrl-x 0': 'pane:close'
+  'ctrl-x 1': 'pane:close'
+  'ctrl-x o': 'window:focus-next-pane'
